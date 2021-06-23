@@ -518,7 +518,7 @@ admin_usertags_expl:
   hu: Azokat a könyveket, amik az alábbi címkével vannak ellátva, nem láthatod
   de: Optional, schließt Bücher mit diesem Schlagwort von der Anzeige aus
   en: Optional, don\'t show books with this tag
-  fr: Optionnel, ne pas afficher les livres ayant ce tag
+  fr: Optionnel, ne pas afficher les livres ayant ce genre
   it: Opzionale, non visualizza i libri con questa etichetta
   gl: Opcional, non ver os libros con esta etiqueta
   es: Opcional, no mostrar libros con esta etiqueta
@@ -705,12 +705,12 @@ booksbytag:
   hu: Könyvek az alábbi címkével
   de: Bücher mit Schlagwort
   en: Books tagged with
-  fr: Livres taggués avec
+  fr: Livres dont le genre est
   nl: Boeken gelabeld met
   it: Libro etichettato con
   gl: Libros etiquetados con 
   es: Libros etiquetados con 
-  pl: Książki z tagiem
+  pl: Książki ziem
 booksbyseries:
   hu: Könyvek az alábbi sorozatban
   de: Bücher der Reihe
@@ -1281,7 +1281,7 @@ opds_tags:
   hu: ! 'Címkék: '
   de: ! 'Schlagwörter: '
   en: ! 'Tags: '
-  fr: ! 'Tags : '
+  fr: ! 'Genres : '
   nl: ! 'Labels: '
   it: ! 'Etichette: '
   gl: ! 'Etiquetas: '
@@ -1501,7 +1501,7 @@ opds_by_tag1:
   hu: Címke szerint
   de: Nach Schlagwort
   en: By Tag
-  fr: Par Tag
+  fr: Par genre
   nl: Op Label
   it: Per Etichette
   gl: Por etiqueta
@@ -1511,7 +1511,7 @@ opds_by_tag2:
   hu: Összes könyv címke szerint rendezve
   de: Alle Bücher nach Schlagwort geordnet
   en: All books sorted by tag
-  fr: Tous les livres triés par tag
+  fr: Tous les livres triés par genre
   nl: Alle boeken gesorteerd op label
   it: Tutti i libri ordinati per etichette
   gl: Todos os libros ordeados por etiqueta
@@ -1521,7 +1521,7 @@ opds_by_tag3:
   hu: Címkék betűrendben
   de: Schlagwörter nach Initialen
   en: Tags by their initials
-  fr: Tags par initiales
+  fr: Genres par initiales
   nl: Labels op initialen
   it: Etichette per loro iniziali
   gl: Etiquetas por iniciais
@@ -1531,7 +1531,7 @@ opds_by_tag4:
   hu: ! 'Minden címke: '
   de: ! 'Alle Schlagwörter für '
   en: ! 'All tags for '
-  fr: ! 'Tous les tags par '
+  fr: ! 'Tous les genres par '
   nl: ! 'Alle labels voor '
   it: ! 'Tutte le etichette per '
   gl: ! 'Todas as etiquetas por '
@@ -1541,7 +1541,7 @@ opds_by_tag5:
   hu: Címkék listája
   de: Schlagwortliste
   en: Tags list
-  fr: List des tags
+  fr: Liste des genres
   nl: Label lijst
   it: Elenco Etichette
   gl: Lista de etiquetas
@@ -1551,7 +1551,7 @@ opds_by_tag6:
   hu: ! 'Összes könyv a címkéhez '
   de: ! 'Alle Bücher für Schlagwort '
   en: ! 'All books for tag '
-  fr: ! 'Tous les livres par tag '
+  fr: ! 'Tous les livres par genre '
   nl: ! 'Alle boeken voor label '
   it: ! 'Tutti i libri per etichietta '
   gl: ! 'Todos os libros por etiquetas '
@@ -1779,14 +1779,14 @@ tag:
   en: Tag
   it: Etichetta
   gl: Etiqueta
-  fr: Tag
+  fr: Genre
   es: Etiqueta
   pl: Tag
 tags:
   hu: Címkék
   de: Schlagwörter
   en: Tags
-  fr: Tags
+  fr: Genres
   nl: Labels
   it: Etichette
   gl: Etiqueta
@@ -1796,7 +1796,7 @@ tag_details:
   hu: Címkéről
   de: Details Schlagwort
   en: Tag Details
-  fr: Détails du Tag
+  fr: Détails du genre
   nl: Label Details
   it: Dettagli Etichette
   gl: Detalles da etiqueta
@@ -1806,7 +1806,7 @@ tag_protect:
   hu: Szelektív letöltés védelem címkék használatával?
   de: Selektiver Download-Schutz durch Schlagworte?
   en: Selective download protection using tags?
-  fr: Protection sélective des téléchargements via les tags ?
+  fr: Protection sélective des téléchargements via les genres ?
   nl: Bescherming via label?
   it: Protezione del download selettivo utilizzando le etichiette?
   gl: Protexer as baixadas selectivamente empregando as etiquetas?
@@ -1816,7 +1816,7 @@ tag_protect_field:
   hu: Add meg a címkéket a szelektív letöltés védelemhez
   de: Schlagwort eingeben
   en: Enter tag for selective download protection
-  fr: Saisissez un tag pour une protection sélective de téléchargement 
+  fr: Saisissez un genre pour une protection sélective de téléchargement 
   nl: Selectie op label
   it: Inserire le etichette per la protezione del download selettivo
   gl: Introduce a etiqueta para a protección selectiva da baixada
@@ -1827,7 +1827,7 @@ tag_protect_field_exp1:
   de: Geben Sie hier das Schlagwort ein, mit dem Titel vor dem Herunterladen geschützt
     werden sollen.
   en: Choose a tag that will be used for selective download protection.
-  fr: Choisissez un tag qui sera utilisé pour la protection sélective de téléchargement.
+  fr: Choisissez un genre qui sera utilisé pour la protection sélective de téléchargement.
   nl: Plaats hier de label die moet worden beschermd
   it: Scegliere una etichetta da utilizzare per la protezione del download selettivo.
   gl: Escolle unha etiqueta que será empregada para a baixada selectiva.
@@ -1839,7 +1839,7 @@ tag_protect_expl:
     beschränkt werden. Alle anderen Titel können ohne Passwort heruntergeladen werden.
   en: If this is activated, only books with the selected tag will be password-protected.
     All other books can be downloaded without password.
-  fr: Si vous l\'activez, seuls les livres avec ce tag seront protégés.
+  fr: Si vous l\'activez, seuls les livres avec ce genre seront protégés.
     Tous les autres livres pourront être téléchargés sans mot de passe.
   nl: Indien ingeschakeld, zullen de boeken met onderstaand label worden beveiligd.
     Let op! Andere boeken zijn dan te downloaden.
